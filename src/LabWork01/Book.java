@@ -1,3 +1,5 @@
+package LabWork01;
+
 public class Book {
     // Добавленные Getters
     private String title;

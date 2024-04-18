@@ -1,3 +1,5 @@
+package LabWork01;
+
 public class Main {
     public static void main(String[] args) {
         BookStack stack = new BookStack(10);

@@ -1,3 +1,5 @@
+package LabWork01;
+
 public class BookStack {
     private final Book[] stack;
     private int top;

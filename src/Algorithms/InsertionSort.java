@@ -1,6 +1,4 @@
-package algorithms;
-
-import java.util.Scanner;
+package Algorithms;
 
 public class InsertionSort {
     public static void main(String[] args) {
