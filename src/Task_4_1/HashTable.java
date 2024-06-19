@@ -57,7 +57,7 @@ class HashTable {
             if (keys[index].equals(key)) {
                 keys[index] = null;
                 values[index] = null;
-                System.out.println("Удалить ключ " + key + " из индекса " + index);
+                System.out.println("Удалить ключ " + key + " из индекса " + index + "\n");
                 // Перехешируем элементы в цепочке, чтобы не нарушить порядок поиска
                 index = (index + 1) % size;
                 while (keys[index] != null) {
@@ -104,13 +104,11 @@ class HashTable {
 
         System.out.println();
 
-        System.out.println("Поиск : " + hashTable.search(11)); // Поиск значения по ключу 11
+        System.out.println("Поиск : " + hashTable.search(11) + "\n"); // Поиск значения по ключу 11
 
-        hashTable.delete(2); // Удаление ключа 11
+        hashTable.delete(11); // Удаление ключа 11
 
         System.out.println();
-
-        System.out.println(hashTable.search(21));
 
         hashTable.displayTable(); // Показать содержимое хэш-таблицы после удаления
     }

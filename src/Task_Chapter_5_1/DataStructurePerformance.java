@@ -4,7 +4,7 @@ import java.util.*;
 public class DataStructurePerformance {
 
     public static void main(String[] args) {
-        int[] sizes = {1000000};
+        int[] sizes = {100};
 
 
         System.out.println("Insertion Times:");
