@@ -73,7 +73,7 @@ class Graph {
     public void printMST(LinkedList<Edge> mst) {
         System.out.println("Минимальное остовое дерево: ");
         for (Edge edge : mst) {
-            System.out.println("Ребро: (" + edge.source + " - " + edge.destination + ")" );
+            System.out.println("Ребро: (" + edge.source + " - " + edge.destination + ")" + " " + "Вес: " + edge.weight );
         }
     }
 }
